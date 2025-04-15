@@ -13,10 +13,10 @@ Generate key dengan perintah php artisan key:generate
 Lakukan penyesuaian database pada .env 
 contoh: DB_CONNECTION=mysql DB_HOST=127.0.0.1 DB_PORT=7000 DB_DATABASE=dusklaravel DB_USERNAME=root DB_PASSWORD=
 
+Migrate database dengan perintah php artisan migrate
+
 composer require laravel/dusk --dev
 
 php artisan dusk:install
 
-Migrate database dengan perintah php artisan migrate & npm run dev pada terminal/cmd yang berbeda
-
-Jalankan proyek laravel dengan perintah php artisan serve
+Jalankan proyek laravel dengan perintah php artisan serve & npm run dev pada terminal/cmd yang berbeda
